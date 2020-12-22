@@ -66,3 +66,12 @@ h1 {
   color: #f7b5c5;
   margin: 0 2rem 0 2rem;
 }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #fbdae2;
+  padding: 4rem 0 4rem 0;
+}
