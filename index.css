@@ -11,6 +11,7 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   margin-left: 3rem;
+  font-size: 80px;
 }
 
 .h1-wrapper {
@@ -18,10 +19,15 @@ h1 {
   flex-direction: row;
 }
 
+hr.pink-dotted {
+  border-top: 2px dotted #f7b5c5;
+  align-self: flex-end;
+}
+
 .full-section {
   display: flex;
   flex-direction: column;
-  margin: 4rem 4rem 4rem 4rem;
+  margin: 4rem 4rem 6rem 4rem;
 }
 
 .section {
@@ -34,6 +40,7 @@ h1 {
   display: flex;
   flex-direction: row;
   margin: 4rem 6rem 4rem 6rem;
+  font-size: 24px;
 }
 
 .sub-section {
@@ -43,6 +50,7 @@ h1 {
   height: auto;
   margin-left: 2rem;
   margin-right: 2rem;
+  font-size: 24px;
 }
 
 .circle-img {
@@ -65,6 +73,7 @@ h1 {
 .contact-icon {
   font-size: 40px;
   color: #f7b5c5;
+
   margin: 0 2rem 0 2rem;
 }
 
@@ -75,4 +84,57 @@ footer {
   align-items: center;
   background-color: #fbdae2;
   padding: 4rem 0 4rem 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .full-section {
+    display: flex;
+    flex-direction: column;
+    margin: 3rem 2rem 2rem 2rem;
+    padding: 0;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    margin: 0 3rem 0 3rem;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section-row {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .sub-section {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    margin: 1rem 0 1rem 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    margin-left: 3rem;
+    font-size: 50px;
+  }
+}
+
+.jumbotron {
+  align-items: center;
+  justify-content: center;
+  font-size: 120px;
+  background-color: white;
+  color: #666666;
+  opacity: 50%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  margin-left: 3rem;
 }
