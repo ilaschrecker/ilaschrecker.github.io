@@ -43,6 +43,10 @@ hr.pink-dotted {
   font-size: 24px;
 }
 
+.space {
+  margin-left: 6px;
+}
+
 .sub-section {
   display: flex;
   flex-direction: column;
