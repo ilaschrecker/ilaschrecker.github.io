@@ -10,8 +10,8 @@ body {
 h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
-  margin-left: 3rem;
-  font-size: 80px;
+  font-size: 48px;
+  color: #826F7C;
 }
 
 .h1-wrapper {
@@ -19,27 +19,23 @@ h1 {
   flex-direction: row;
 }
 
-hr.pink-dotted {
-  border-top: 2px dotted #f7b5c5;
-  align-self: flex-end;
-}
-
 .full-section {
   display: flex;
-  flex-direction: column;
-  margin: 4rem 4rem 6rem 4rem;
+  flex-direction: row;
+  padding: 4rem 4rem 6rem 4rem;
 }
 
 .section {
   display: flex;
-  flex-direction: row;
-  margin: 4rem 4rem 4rem 4rem;
+  width: 100%;
+  flex-direction: column;
+  margin: 2rem 2rem 2rem 2rem;
 }
 
 .section-row {
   display: flex;
   flex-direction: row;
-  margin: 4rem 6rem 4rem 6rem;
+  /*margin: 4rem 6rem 4rem 6rem;*/
   font-size: 24px;
 }
 
@@ -50,11 +46,9 @@ hr.pink-dotted {
 .sub-section {
   display: flex;
   flex-direction: column;
-  max-width: 45%;
   height: auto;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  font-size: 24px;
+  font-size: 18px;
+  align-items: center;
 }
 
 .circle-img {
@@ -63,8 +57,8 @@ hr.pink-dotted {
   max-height: auto;
 }
 
-.pink-navbar {
-  background-color: #fce2e8;
+.purple-background {
+  background-color: rgb(200, 173, 192, 0.7);
 }
 
 .contact-icon-row {
@@ -83,11 +77,18 @@ hr.pink-dotted {
 
 footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #fbdae2;
   padding: 4rem 0 4rem 0;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: #826F7C;
 }
 
 @media only screen and (max-width: 600px) {
@@ -131,14 +132,24 @@ footer {
   }
 }
 
-.jumbotron {
-  align-items: center;
+
+#about{
+  background-color: rgb(237, 211, 196, 0.3);
+}
+
+#publications{
+  background-color: rgb(237, 211, 196, 0.5);
+}
+
+#resume{
+  background-color: rgb(237, 211, 196, 0.7);
+}
+
+.justify-content-center {
+  display: flex;
   justify-content: center;
-  font-size: 120px;
-  background-color: white;
-  color: #666666;
-  opacity: 50%;
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  margin-left: 3rem;
+}
+
+.pad-content {
+  padding: 2rem 2rem 2rem 2rem;
 }

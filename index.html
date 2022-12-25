@@ -1,60 +1,57 @@
 <html>
-  <head>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-    />
 
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <script src="https://use.fontawesome.com/0b04c030ef.js"></script>
-    <link rel="stylesheet" type="text/css" href="index.css" />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light pink-navbar">
-      <div class="" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#about">Home </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#resume">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#publications">Publications</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<head>
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
 
-    <!-- JUMBOTRON 
-    <div class="jumbotron">
-      <p>Hello. I'm Ila</p>
-    </div>-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://use.fontawesome.com/0b04c030ef.js"></script>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
 
-    <!-- ABOUT -->
-    <div class="full-section" id="about">
-      <h1 class="h1-wrap">About Me</h1>
-      <div class="section">
+<body>
+  <nav class="navbar navbar-expand-md navbar-light purple-background">
+    <button class="navbar-toggler" id="expand-navs" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#"><i class="far fa-circle"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" id="nav-about" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-resume" href="#publications">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-projects" href="#resume">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-contact" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ABOUT -->
+  <div id="about">
+    <div class="full-section">
+      <div class="section justify-content-center">
         <div class="sub-section">
-          <img
-            class="circle-img"
-            src="img/ila-headshot.jpg"
-            alt="Image of ila"
-          />
+          <img class="circle-img" src="img/ila-headshot.jpg" alt="Image of ila" />
         </div>
+      </div>
+      <div class="section justify-content-center">
+        <h1 class="h1-wrap">About Me</h1>
         <div class="sub-section">
           Hi! I’m Ila, a University of Wisconsin-Madison student double majoring
           in Communication Arts and English. I was born and raised in Brooklyn,
@@ -65,45 +62,75 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- RESUME -->
-    <div class="full-section" id="resume">
-      <h1 class="h1-wrap">Resume</h1>
-      <div class="section">
-        View my resume
-        <a href="Resume_Ila Schrecker.pdf" target="_blank"> here</a>
-      </div>
-    </div>
-
-    <!--PUBLICATIONS-->
-    <div class="full-section" id="publications">
+  <!--PUBLICATIONS-->
+  <div id="publications">
+    <div class="pad-content">
       <h1 class="h1-wrap">Publications</h1>
+      <p>
+        Her Campus is an online magazine that publishes articles written by
+        college students across the country. Check out my articles
+      </p>
+    </div>
+    <h2>Written Work</h2>
+    <div class="full-section">
       <div class="section">
         <div class="sub-section">
-          <img
-            class="circle-img"
-            src="img/spoon-u.png"
-            alt="Spoon university logo"
-          />
+          <img class="circle-img" src="img/her-campus.png" alt="Her Campus logo" />
         </div>
         <div class="sub-section">
           <p>
-            Spoon University is an online magazine that publishes articles about
-            all things food on college campuses across the country. Check out my
-            articles
-            <a href="https://spoonuniversity.com/author/ilaschrecker"
-              ><span class="space">here</span>.</a
-            >!
+            As Student Communications Intern through University Communications,
+            I conduct interviews and write articles about campus activities and happenings.
+            Check out my articles
+            <a
+              href="https://news.wisc.edu/?s=%22ila+schrecker%22#gsc.tab=0&gsc.ref=news.wisc.edu&gsc.q=%22ila%20schrecker%22&gsc.sort=date">here</a>.
           </p>
         </div>
       </div>
       <div class="section">
         <div class="sub-section">
-          <img
-            class="circle-img"
-            src="img/her-campus.png"
-            alt="Her Campus logo"
-          />
+          <img class="circle-img" src="img/her-campus.png" alt="Her Campus logo" />
+        </div>
+        <div class="sub-section">
+          <p>
+            Spoon University is an online magazine that publishes articles
+            about all things food on college campuses across the country. Check out my articles
+            <a href="https://www.hercampus.com/author/ila-schrecker">here</a>.
+          </p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="sub-section">
+          <img class="circle-img" src="img/her-campus.png" alt="Her Campus logo" />
+        </div>
+        <div class="sub-section">
+          <p>
+            Her Campus is an online magazine that publishes articles written by
+            college students across the country. Check out my articles
+            <a href="https://spoonuniversity.com/author/ilaschrecker">here</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+    <h2>Audio Projects</h2>
+    <div class="full-section">
+      <div class="section">
+        <div class="sub-section">
+          <img class="circle-img" src="img/her-campus.png" alt="Her Campus logo" />
+        </div>
+        <div class="sub-section">
+          <p>
+            Her Campus is an online magazine that publishes articles written by
+            college students across the country. Check out my articles
+            <a href="https://www.hercampus.com/author/ila-schrecker">here</a>!
+          </p>
+        </div>
+      </div>
+      <div class="section">
+        <div class="sub-section">
+          <img class="circle-img" src="img/her-campus.png" alt="Her Campus logo" />
         </div>
         <div class="sub-section">
           <p>
@@ -114,31 +141,28 @@
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- CONTACT -->
-    <div class="full-section" id="contact">
-      <h1 class="h1-wrap">Contact</h1>
-      <div class="section-row">
-        <p>
-          Reach if you’re interested in working with me, or have any questions
-          by emailing me at
-          <a href="mailto:ilaruth2001@gmail.com">ilaruth2001@gmail.com</a>, or
-          connected on social media.
-        </p>
-      </div>
-
-      <div class="contact-icon-row">
-        <a href="https://www.facebook.com/ila.schrecker/"
-          ><i class="fab fa-facebook contact-icon"></i
-        ></a>
-        <a href="https://www.instagram.com/ilaschrecker/"
-          ><i class="fab fa-instagram contact-icon"></i
-        ></a>
-        <a href="https://www.linkedin.com/in/ila-schrecker-613082202/"
-          ><i class="fab fa-linkedin-in contact-icon"></i
-        ></a>
+  <!-- RESUME -->
+  <div id="resume">
+    <div class="full-section">
+      <h1 class="h1-wrap">Resume</h1>
+      <div class="section">
+        View my resume
+        <a href="Resume_Ila Schrecker.pdf" target="_blank"> here</a>
       </div>
     </div>
-    <footer>Website created by Pazit Schrecker 2020</footer>
-  </body>
+  </div>
+
+  <!-- CONTACT -->
+  <footer class="purple-background" id="contact">
+    <h1 class="h1-wrap">Contact</h1>
+    <div>
+      <a href="https://www.facebook.com/ila.schrecker/"><i class="fab fa-facebook contact-icon"></i></a>
+      <a href="https://www.instagram.com/ilaschrecker/"><i class="fab fa-instagram contact-icon"></i></a>
+      <a href="https://www.linkedin.com/in/ila-schrecker-613082202/"><i class="fab fa-linkedin-in contact-icon"></i></a>
+    </div>
+  </footer>
+</body>
+
 </html>
