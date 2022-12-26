@@ -154,11 +154,15 @@ h2 {
 }
 
 .pad-content--large {
-  padding: 4rem 4rem 4rem 4rem
+  padding: 4rem 4rem 0rem 6rem;
 }
 
 .space-top {
   padding-top: 1.5rem;
+}
+
+.space-top--large {
+  padding-top: 4rem;
 }
 
 .circle-img-smaller {
@@ -167,4 +171,9 @@ h2 {
 
 .active-item {
   border-bottom: 2px #826F7C solid;
+}
+
+.space-x {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
