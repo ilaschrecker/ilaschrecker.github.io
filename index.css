@@ -3,12 +3,12 @@ html {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  color: #666666;
+  font-family: "Poppin", sans-serif;
+  color: #826F7C;
 }
 
 h1 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 800;
   font-size: 48px;
   color: #826F7C;
@@ -22,7 +22,7 @@ h1 {
 .full-section {
   display: flex;
   flex-direction: row;
-  padding: 4rem 4rem 6rem 4rem;
+  padding: 0rem 4rem 6rem 4rem;
 }
 
 .section {
@@ -53,7 +53,7 @@ h1 {
 
 .circle-img {
   border-radius: 50%;
-  max-width: 80%;
+  width: 80%;
   max-height: auto;
 }
 
@@ -70,7 +70,7 @@ h1 {
 
 .contact-icon {
   font-size: 40px;
-  color: #f7b5c5;
+  color: #826F7C;
 
   margin: 0 2rem 0 2rem;
 }
@@ -80,8 +80,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fbdae2;
-  padding: 4rem 0 4rem 0;
+  padding: 2rem 0 2rem 0;
 }
 
 h2 {
@@ -137,7 +136,7 @@ h2 {
   background-color: rgb(237, 211, 196, 0.3);
 }
 
-#publications{
+#projects{
   background-color: rgb(237, 211, 196, 0.5);
 }
 
@@ -152,4 +151,20 @@ h2 {
 
 .pad-content {
   padding: 2rem 2rem 2rem 2rem;
+}
+
+.pad-content--large {
+  padding: 4rem 4rem 4rem 4rem
+}
+
+.space-top {
+  padding-top: 1.5rem;
+}
+
+.circle-img-smaller {
+  width: 50% !important;
+}
+
+.active-item {
+  border-bottom: 2px #826F7C solid;
 }
