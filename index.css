@@ -90,21 +90,24 @@ h2 {
   color: #826F7C;
 }
 
+.resume-mobile {
+  display: hidden;
+}
+
 @media only screen and (max-width: 600px) {
   .full-section {
     display: flex;
     flex-direction: column;
-    margin: 3rem 2rem 2rem 2rem;
-    padding: 0;
+    padding: 1rem;
   }
 
   .section {
     display: flex;
     flex-direction: column;
-    margin: 0 3rem 0 3rem;
     padding: 0;
     align-items: center;
     justify-content: center;
+    width: unset;
   }
 
   .section-row {
@@ -126,8 +129,13 @@ h2 {
   h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 800;
-    margin-left: 3rem;
     font-size: 50px;
+  }
+  .resume-web {
+    display: none;
+  }
+  .resume-mobile {
+    display: unset;
   }
 }
 
